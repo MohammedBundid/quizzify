@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --BGCOLOR1: #f63e9b ;
+    --BGCOLOR2: #78258d;
+    --BGCOLOR3: #541c88;
+}
+
+body {
+    background: linear-gradient(to right, var(--BGCOLOR2), var(--BGCOLOR1));
+    /* background-repeat: no-repeat;  */
+}
+
+.card {
+    /* position: absolute; */
+}
+
+.card:hover {
+    cursor: pointer;
+}
